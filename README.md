@@ -21,7 +21,7 @@ Gerar insights através da ánalise e exploração dos dados, para auxiliar na t
 - Há “IDs” repetidos, porém com informações e atributos diferentes.
 - Mantidos também os outliers para validação das hipóteses.
 
-### 1.3 Hipóteses levantadas
+### 1.4 Hipóteses levantadas
 
 Com o propósito de entregar mais valor para o time de negócio, iremos validar algumas hipóteses, sendo elas:
 
@@ -31,21 +31,26 @@ Com o propósito de entregar mais valor para o time de negócio, iremos validar 
 - HP4: O crescimento do preço dos imóveis YoY (Year over Year) é de pelo menos 10%.
 - HP5: Imóveis com 3 banheiros tem um crescimento de preço MoM (Month over Month) de pelo menos 15%.
 
-### 1.4 Validação das hipóteses
+### 1.5 Validação das hipóteses
 
 - Os valores dos imóveis que possuem vista para a água são muito mais caros, representando 212,64% acima da média.
+
 ![](reports/images/HP1.png)
 
 - O ano de construção não teve impactos significantes na alteração do preço.
+
 ![](reports/images/HP2.png)
 
 - Imóveis que foram reformados recentemente, tendo ênfase em 2015, são em média 22.01% mais caros que os demais.
+
 ![](reports/images/HP3.png)
 
 - O crescimento dos preços YoY (Ano após Ano) é de apenas 0.52%.
+
 ![](reports/images/HP4.png)
 
 - Houve variação positiva e negativa entre os meses, mas nenhuma chegou ao pressuposto de 15%.
+
 ![](reports/images/HP5.png)
 
 ### 2.0 Planejamento da solução do problema de negócio

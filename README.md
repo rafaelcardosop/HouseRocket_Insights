@@ -21,7 +21,11 @@ Gerar insights através da ánalise e exploração dos dados, para auxiliar na t
 - Há “IDs” repetidos, porém com informações e atributos diferentes.
 - Mantidos também os outliers para validação das hipóteses.
 
-### 1.4 Hipóteses levantadas
+### 1.4 Dashboard
+
+Neste projeto foi desenvolvido um dashboard interativo com o streamlit, com a finalidade de atender melhor as necessidades do time de negócio, para acessa-lo, clique [aqui.](https://datascientist-house-rocket.herokuapp.com/)
+
+### 1.5 Hipóteses levantadas
 
 Com o propósito de entregar mais valor para o time de negócio, iremos validar algumas hipóteses, sendo elas:
 
@@ -31,7 +35,7 @@ Com o propósito de entregar mais valor para o time de negócio, iremos validar 
 - HP4: O crescimento do preço dos imóveis YoY (Year over Year) é de pelo menos 10%.
 - HP5: Imóveis com 3 banheiros tem um crescimento de preço MoM (Month over Month) de pelo menos 15%.
 
-### 1.5 Validação das hipóteses
+### 1.6 Validação das hipóteses
 
 - Os valores dos imóveis que possuem vista para a água são muito mais caros, representando 212,64% acima da média.
 
@@ -53,7 +57,7 @@ Com o propósito de entregar mais valor para o time de negócio, iremos validar 
 
 ![](reports/images/HP5.png)
 
-### 2.0 Planejamento da solução do problema de negócio
+## 2.0 Planejamento da solução do problema de negócio
 Para recomendação de compra:
 - Agrupar os imóveis por região (zipcode).
 - Dentro de cada região, detectar a mediana do preço do imóvel.
@@ -66,7 +70,7 @@ Para recomendação de venda:
     + Se o preço da compra for maior que a mediana da região + sazonalidade: O preço da venda será igual ao preço da compra + 10%.
     + Se o preço da compra for menor que a mediana da região + sazonalidade: O preço da venda será igual ao preço da compra + 30%.
     
-### 3.0 Insights levantados
+## 3.0 Insights levantados
 - Pouco mais da metade da base de dados, não são recomendados para a compra.
 
 | Recomendação | Qtde. de Imóveis |
@@ -83,12 +87,12 @@ Para recomendação de venda:
 | Outono | $379.273 |
 | Inverno | $375.623 |
 
-### 4.0 Resultados desta análise
+## 4.0 Resultados desta análise
 - Considerando que a empresa efetue a compra de todos os imóveis recomendados, tendo como base o valor mediano, a empresa tem um potencial para economizar em torno de US$ 1.055.901.488,00 cerca de 25.79%.
 
 - A empresa tem um potencial de lucro, considerando a compra de todos os imóveis recomendados, e os vendendo com o preço sugerido, um montante de US$ 774.596.310.60, cerca de 528.56%
 
-### Autor
+## Autor
 Rafael Cardoso
 
 <a href = "https://www.linkedin.com/in/rafael-cardoso-paiva/-45875016a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
